@@ -1,0 +1,177 @@
+<template>
+  <div class="cards">
+    <b-container fluid>
+      <b-row align-h="center">
+        <b-col class="contenedor_imagen" cols="7">
+          <img :id="idC + 'img'" class="imagen" :src="img" alt="" />
+          <svg
+            class="imagen1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 170.613 173.165"
+          >
+            <path
+              id="Trazado_1"
+              data-name="Trazado 1"
+              d="M685.7,343.979l-.409-1.958.2.979-.2-.979c.032-.007,3.256-.687,8.3-2.209q.981-.3,2.107-.653a205.886,205.886,0,0,1-20.766-1.684,145.971,145.971,0,0,1-31.9-7.681c-11.21-4.222-20.346-9.791-27.154-16.551a51.859,51.859,0,0,1-7.565-9.466,48.982,48.982,0,0,1-5.172-11.418,55.385,55.385,0,0,1-2.3-13.5,73.845,73.845,0,0,1,1.01-15.7q.389-2.332.807-4.6-.54-2.254-.934-4.482a64.684,64.684,0,0,1-.527-19.831A59.991,59.991,0,0,1,607.743,214a76.025,76.025,0,0,1,13.5-18.175,82.251,82.251,0,0,1,17.845-13.436,89.861,89.861,0,0,1,20.814-8.422,93.518,93.518,0,0,1,22.425-3.137,91.4,91.4,0,0,1,22.015,2.273,86.307,86.307,0,0,1,21.018,7.776,83.343,83.343,0,0,1,18.766,13.541,87.939,87.939,0,0,1,15.246,19.55,85.24,85.24,0,0,1,11.9,43.713,87.369,87.369,0,0,1-2.552,20.118,98.266,98.266,0,0,1-6.443,18.156,106.6,106.6,0,0,1-9.509,16.342,99.044,99.044,0,0,1-10.815,12.89,67.712,67.712,0,0,1-10.63,8.789,25.95,25.95,0,0,1-9.08,4.03,130.5,130.5,0,0,1-19.974,1.255h-.617c-2.9,1.034-5.455,1.856-7.52,2.478C689.019,343.281,685.838,343.951,685.7,343.979ZM603.88,263.1l-.064.383c-3.318,19.9,1.214,36.168,13.468,48.336,15.309,15.2,39.945,21.262,57.915,23.669a206.821,206.821,0,0,0,26.1,1.771c3.595-1.292,7.7-2.909,12-4.877,9.166-4.192,20.426-10.541,29.895-19.465-5.4,2.413-13.458,6.361-23.974,11.74a74.762,74.762,0,0,1-26.633,7.79,87.759,87.759,0,0,1-23.362-.863,98.183,98.183,0,0,1-16.591-4.314,63.117,63.117,0,0,1-6.359-2.609l-.108-.054-.092-.078c-.042-.036-4.248-3.625-9.99-9.7-3.369-3.566-6.605-7.282-9.619-11.047a156.168,156.168,0,0,1-10.193-14.259A108.927,108.927,0,0,1,603.88,263.1Zm144.186,47.78a85.835,85.835,0,0,1-10.273,9.289,121.353,121.353,0,0,1-23.711,14.051c-2.41,1.1-4.757,2.094-6.99,2.983a110.854,110.854,0,0,0,14.806-1.172c4.818-.838,11.786-5.423,18.641-12.265a103.207,103.207,0,0,0,19.925-28.663c8.87-18.964,15.58-48.261-2.826-80.14-15.289-26.482-42.739-42.154-73.659-42.154-.54,0-1.077,0-1.619.014-31.433.554-59.348,16.69-72.852,42.109-6.875,12.94-7.911,26.1-5.829,38.35,1.184-5.723,2.512-11.081,3.97-16.011a126.625,126.625,0,0,1,7.584-19.846c5.326-10.829,11.819-19.01,19.848-25.01,15.015-11.22,33.253-13.1,52.561-15.086l2.857-.3a48.4,48.4,0,0,1,24.429,4.033,63.94,63.94,0,0,1,11.359,6.416,77.78,77.78,0,0,1,10.416,8.846,93.042,93.042,0,0,1,12.815,16.309,103.627,103.627,0,0,1,14.731,41.24,95.2,95.2,0,0,1,.218,22.8,55.914,55.914,0,0,1-7.006,21.576,65.866,65.866,0,0,1-7.1,10.05,1.159,1.159,0,0,1,.8.467,1.233,1.233,0,0,1-.229,1.625l-1.274-1.274-.286.324a.883.883,0,0,0,.066.314.829.829,0,0,0,.66.524h0A7.866,7.866,0,0,0,748.066,310.885Zm-100.8,12.045a65.441,65.441,0,0,0,6.09,2.483,96.171,96.171,0,0,0,16.255,4.215c12.206,2.041,30.561,2.527,48.687-6.747,11.96-6.119,20.734-10.381,26.079-12.666q1.42-.607,2.51-1.025a64.953,64.953,0,0,0,8.833-11.922,53.926,53.926,0,0,0,6.756-20.809c3.206-28.4-7.215-58.563-27.2-78.718-13.535-13.652-29.366-20.3-44.576-18.714l-2.86.3c-19.026,1.959-37,3.81-51.569,14.7-15.469,11.559-25.554,32.072-31.557,64.32,2.734,11.3,7.909,21.661,13.237,30.118a167.3,167.3,0,0,0,19.573,25C642.729,318.959,646.627,322.374,647.271,322.93Z"
+              transform="translate(-600.66 -170.814)"
+              v-bind:style="{ fill: color }"
+            />
+          </svg>
+
+          <b-row class="informacion">
+            <b-col>
+              <h2>{{ titulo }}</h2>
+              <p>
+                Comida japonesa elaborada con pescado crudo y gran variedad de
+                ingredientes y condimentos.
+              </p>
+              <div>
+                <a @click="animar" href="#seccion">Ver más</a>
+                <span class="span1"></span>
+                <span class="span2"></span>
+              </div>
+            </b-col>
+          </b-row>
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "CartaS",
+  props: {
+    titulo: {
+      type: String,
+      default: "Click",
+    },
+    descipcion: {
+      type: String,
+      default: "Click",
+    },
+    img: {
+      type: String,
+      default: "Click",
+    },
+    enlasc: {
+      type: String,
+      default: "Click",
+    },
+    color: {
+      type: String,
+      default: "Click",
+    },
+    idC: {
+      type: String,
+      default: "Click",
+    },
+  },
+  methods: {
+    animar() {
+      console.log(this.titulo);
+
+      document.getElementById("app").classList.toggle(this.titulo);
+      // this.$emit("productoSelect", this.titulo);
+    },
+  },
+};
+</script>
+
+<style scoped>
+[v-cloak] {
+  display: none;
+}
+.col,
+h2,
+p,
+a,
+div {
+  background: transparent;
+}
+h2 {
+  font-size: 11vw !important;
+  /* color: rgb(255, 251, 0); */
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4vw !important;
+}
+a {
+  font-size: 4vw;
+  color: var(--grend) !important;
+  outline: none !important;
+  text-decoration: none !important;
+}
+.span1,
+.span2 {
+  margin: auto;
+
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: var(--grend) !important;
+  border-style: solid !important;
+  height: 0px !important;
+  border-width: 1px;
+  border-color: var(--grend) !important;
+  border-radius: 5px;
+}
+.span1 {
+  width: 50%;
+}
+.span2 {
+  width: 30%;
+  margin-bottom: 10%;
+}
+.imagen {
+  left: -7%;
+  top: -38%;
+  width: 65vw;
+  height: 65vw;
+  clip-path: circle(38% at 50% 50%);
+  position: absolute;
+  background: transparent;
+  z-index: 1;
+  transition: 0.7s ease all;
+}
+#app ~ .Sushi {
+  /* transition: 0.8s ease all !important; */
+  background-image: url("../img/min/sushi.jpg") !important;
+}
+#app ~ .Ceviche {
+  position: fixed !important;
+  /* transition: 0.8s ease all; */
+  background-image: url("../img/min/ceviche.jpg");
+}
+#app ~ .Mariscos {
+  /* transition: 0.8s ease all; */
+  background-image: url("../img/min/mariscos.jpg");
+}
+.imagen1 {
+  left: 6%;
+  top: -29%;
+  width: 50vw;
+  position: absolute;
+  background: transparent;
+  z-index: 99;
+}
+.informacion {
+  margin-top: 50% !important;
+  background: transparent;
+}
+.contenedor_imagen {
+  /* display: flex; */
+  position: relative;
+  height: auto;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.cards {
+  margin-right: -25%;
+  margin-top: 40%;
+  min-width: 100%;
+}
+</style>
